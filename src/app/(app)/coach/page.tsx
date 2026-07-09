@@ -114,7 +114,7 @@ export default function CoachPage() {
 
       <Card className="glass mt-6">
         <CardHeader>
-          <CardTitle>This Week's Focus</CardTitle>
+          <CardTitle>{"This Week's Focus"}</CardTitle>
         </CardHeader>
         <CardContent>
           <ol className="space-y-3 text-sm">
