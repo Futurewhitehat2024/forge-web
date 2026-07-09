@@ -1,0 +1,11 @@
+node_modules
+.tools
+tools/git
+.next
+out
+.env*.local
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+# clerk configuration (can include secrets)
+/.clerk/
