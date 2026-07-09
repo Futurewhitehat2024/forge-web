@@ -2,6 +2,8 @@
 
 All-in-one creator operating system built with **Next.js 15**, **Clerk**, **Supabase**, **Tailwind CSS**, and **shadcn/ui**. Dark mode by default, Linear/Arc-inspired design.
 
+**Live:** [forge-web-wellstech.vercel.app](https://forge-web-wellstech.vercel.app)
+
 ## Features
 
 - **Dashboard** — Revenue KPIs, charts, weekly goals, activity feed
