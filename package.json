@@ -5,9 +5,9 @@
   "scripts": {
     "prebuild": "node -e \"try{require('fs').rmSync('.next',{recursive:true,force:true})}catch(e){}\"",
     "dev": "scripts\\run-next.cmd dev",
-    "build": "scripts\\run-next.cmd build",
-    "start": "scripts\\run-next.cmd start",
-    "lint": "scripts\\run-next.cmd lint"
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@clerk/nextjs": "^7.5.14",
