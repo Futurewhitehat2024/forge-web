@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "prebuild": "scripts\\clean-next.cmd",
+    "prebuild": "node -e \"try{require('fs').rmSync('.next',{recursive:true,force:true})}catch(e){}\"",
     "dev": "scripts\\run-next.cmd dev",
     "build": "scripts\\run-next.cmd build",
     "start": "scripts\\run-next.cmd start",
